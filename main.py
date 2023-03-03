@@ -33,7 +33,7 @@ class CreateTask(graphene.Mutation):
         title = graphene.String(required=True)
         description = graphene.String()
 
-    task = graphene.Field(lambda: Task)
+    # task = graphene.Field(lambda: Task)
 
     # def mutate(self, info, title, description=None):
     #     # Create a new task in the "tasks" collection in the MongoDB database
