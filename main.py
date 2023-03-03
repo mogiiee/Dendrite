@@ -41,13 +41,13 @@ class CreateTask(graphene.Mutation):
         title = graphene.String(required=True)
         description = graphene.String()
 
-    # task = graphene.Field(lambda: Task)
+    task = graphene.Field(lambda: Task)
 
-    # def mutate(self, info, title, description=None):
-    #     # Create a new task in the "tasks" collection in the MongoDB database
-    #     result = client.db.tasks.insert_one({"title": title, "description": description})
-    #     task = Task(id=str(result.inserted_id), title=title, description=description)
-    #     return CreateTask(task=task)
+    def mutate(self, info, title, description=None):
+        # Create a new task in the "tasks" collection in the MongoDB database
+        result = client.db.tasks.insert_one({"title": title, "description": description})
+        task = Task(id=str(result.inserted_id), title=title, description=description)
+        return CreateTask(task=task)
 
 
 class Mutation(graphene.ObjectType):
