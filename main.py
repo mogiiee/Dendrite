@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask_graphql import GraphQLView
 import graphene
 from pymongo import MongoClient
@@ -62,4 +62,24 @@ app.add_url_rule(
 )
 app.run()
 
-#new flask code isnerteriom
+#new flask code inserterion
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+
+@app.route("/inserter", methods =['POST','GET'])
+def inserter():
+    cli
+
+
+#  "data": {
+#     "empireHero": {
+#       "name": "Luke Skywalker"
+#     },
+#     "jediHero": {
+#       "name": "R2-D2"
+#     }
+#   }
+# }
