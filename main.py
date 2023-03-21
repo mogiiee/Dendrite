@@ -74,16 +74,17 @@ def inserter():
     cli
 
 
- "data": {
-    "empireHero": {
-      "name": "Luke Skywalker"
-    },
-    "jediHero": {
-      "name": "R2-D2"
-    }
-  }
-}
+#  "data": {
+#     "empireHero": {
+#       "name": "Luke Skywalker"
+#     },
+#     "jediHero": {
+#       "name": "R2-D2"
+#     }
+#   }
+# }
 
-#more for adding acommits in github cuz i really need change
-asfjkdsfj
-this is for the the 8th commit
+# #more for adding acommits in github cuz i really need change
+# asfjkdsfj
+# this is for the the 8th commit
+
