@@ -74,12 +74,12 @@ def inserter():
     cli
 
 
-#  "data": {
-#     "empireHero": {
-#       "name": "Luke Skywalker"
-#     },
-#     "jediHero": {
-#       "name": "R2-D2"
-#     }
-#   }
-# }
+ "data": {
+    "empireHero": {
+      "name": "Luke Skywalker"
+    },
+    "jediHero": {
+      "name": "R2-D2"
+    }
+  }
+}
