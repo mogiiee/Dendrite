@@ -74,15 +74,7 @@ def inserter():
     cli
 
 
-#  "data": {
-#     "empireHero": {
-#       "name": "Luke Skywalker"
-#     },
-#     "jediHero": {
-#       "name": "R2-D2"
-#     }
-#   }
-# }
+
 
 
 change this to real life scene
